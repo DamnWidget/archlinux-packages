@@ -117,7 +117,7 @@ prepare() {
 
   # DamnWidget Corsair Patches
   patch -Np1 -i "${srcdir}/0001-HID-corsair-support-for-K65-K70-Rapidfire-and-Scimit.patch"
-  patch -Np1 -i "${srcdir}/0002-HID-corsair-Add-driver-Scimitar-Pro-RGB-gaming-mouse.patch"s
+  patch -Np1 -i "${srcdir}/0002-HID-corsair-Add-driver-Scimitar-Pro-RGB-gaming-mouse.patch"
 
   if [ "${CARCH}" = "x86_64" ]; then
     cat "${srcdir}/config.x86_64" > ./.config
