@@ -47,3 +47,13 @@ or you experience erratic behavior when you boot into your custom compiled kerne
 `MAKEFLAGS="-j1"`
 
 Then recompile (note that this time the compilation will take much longer).
+
+
+### PGP Keys
+
+To successfully compile the Kernel you need to import Linus Torvals and Greg Kroah-Hartman GPG keys if you did not yet
+
+```
+gpg --recv-keys 79BE3E4300411886
+gpg --recv-keys 38DBBDC86092693E
+```
