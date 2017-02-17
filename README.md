@@ -6,3 +6,4 @@ Each package has its own readme with instructions to build and install
 
 * [linux-kernel](https://github.com/DamnWidget/archlinux-packages/tree/master/core/linux) with BFQ IO Scheduler, AUFS and Corsair drivers for input devices
 * [steam](https://github.com/DamnWidget/archlinux-packages/tree/master/multilib/steam) with common patches applied, pretty much the same as `steam-manjaro`
+* [ckb-next](https://github.com/DamnWidget/archlinux-packages/tree/master/aur/ckb-next) user space driver and utility for Corsair devices (next generation)
