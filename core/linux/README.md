@@ -35,8 +35,8 @@ The `-s` parameter will download any additional dependencies that the package ne
 Then install it using pacman as usual, install the headers first and then the kernel
 
 ```
-pacman -U linux-headers_4.9.9-2-x86_64.pkg.tar.gz
-pacman -U linux_4.9.9-2-x86_86.pkg.tar.gz
+pacman -U linux-damnwidget-headers-4.9.9-2-x86_64.pkg.tar.gz
+pacman -U linux-damnwidget-4.9.9-2-x86_86.pkg.tar.gz
 ```
 
 ### Considerations
