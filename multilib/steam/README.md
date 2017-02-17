@@ -1,6 +1,6 @@
 ## Steam with common Patches
 
-This is a custom versio of the Steam-native archlinux package, it is pretty much the same than Manjaro has
+This is a custom version of the steam-native archlinux package, it is pretty much the same than Manjaro has
 
 ### How to compile it
 
@@ -19,10 +19,13 @@ Cd into your new cloned repo and run `makepkg`
 
 ```
 cd archlinux-packages/multilib/steam
-makepkg -s
+makepkg -sc
 ```
 
-The `-s` parameter will download any additional dependencies that the package needs.
+The `-s` parameter will download any additional dependencies that the package needs. The `-c` parameter
+instructs `makepkg` to clean up the directory after the build is done.
+
+**note**: you can also run `makepkg -sci` to install the package as soon as the build process finish.
 
 ### Installation
 
