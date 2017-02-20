@@ -1,7 +1,7 @@
 # Maintainer: Light2Yellow <alexvilchansky@yahoo.com>
 
 pkgname=ckb-next
-pkgver=v0.2.4.r175.91ce033
+pkgver=v0.2.4.r175.g91ce033
 pkgrel=1
 pkgdesc="Corsair Keyboard and Mouse Input Driver, the latest version"
 arch=('i686' 'x86_64')
